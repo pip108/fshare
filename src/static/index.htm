@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>fileupload</title>
+        <link rel="stylesheet" type="text/css" href="fs.css">
+        <script src="fs.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <form class="upload-form" name="fileupload" method="post" enctype="multipart/form-data" action="/u" >
+                <div class="file-input">
+                        <button id="choose-file">Choose file</button>
+                        <span id="file-chosen">No file chosen</span>
+                </div>
+                <div>
+                    <p>
+                        Choose file or drag & drop
+                    </p>
+                </div>
+                <div id="result" style="display: none">
+                </div>
+                <input name="file" type="file" class="form-control-file">
+            </form>
+            <div class="footer">
+                drp fileservice 0.1.0
+            </div>
+        </div>
+    </body>
+</html>

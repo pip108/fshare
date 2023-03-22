@@ -1,0 +1,15 @@
+{
+    "external": [
+        "file.domain1.com",
+        "file.domain2.org",
+        "file.domain3.xyz"
+    ],
+    "filelocation": "./uploads",
+    "port": 8701,
+    "database": {
+        "host": "",
+        "user": "",
+        "password": "",
+        "database": ""
+    }
+}

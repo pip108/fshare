@@ -1,0 +1,4 @@
+dist
+/node_modules/
+/uploads/
+k8s/config.json
